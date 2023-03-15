@@ -1,0 +1,19 @@
+.about {
+    max-width: 70%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+
+    .title {
+
+    }
+
+    .contact {
+        display: flex;
+
+        i {
+            margin-right: 10px;
+        }
+    }
+}
