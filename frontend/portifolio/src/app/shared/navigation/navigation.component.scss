@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+    align-items: center;
+    justify-content: left;
+
+    .logo {
+        max-width: 50px;
+        margin-right: 30px;
+        border-radius: 50%;
+        
+    }
+
+    .navbutton{
+        color: rgb(21, 21, 21);
+        margin-right: 30px;
+        text-decoration: none;
+    }
+}
