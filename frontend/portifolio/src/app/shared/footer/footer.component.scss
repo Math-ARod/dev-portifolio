@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    .footer {
+        bottom: 0;
+        position: fixed;
+        max-width: 70%;
+        font-size: 0.9rem;
+        display: grid;
+        text-align: center;
+        line-height: 0;
+        padding-top: 15px;
+    }
+}

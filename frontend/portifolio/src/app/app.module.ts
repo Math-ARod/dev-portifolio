@@ -13,7 +13,8 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
 
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
-import { ContatoComponent } from './components/contato/contato.component'
+import { ContatoComponent } from './components/contato/contato.component';
+import { FooterComponent } from './shared/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ContatoComponent } from './components/contato/contato.component'
     HabilidadesComponent,
     ProjetosComponent,
     ContatoComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
