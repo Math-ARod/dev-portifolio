@@ -1,0 +1,40 @@
+.all {
+    max-width: 70%;
+
+    display: flex;
+    margin: auto;
+    padding: 20px;
+
+    .habilities {
+    
+        .title {
+            font-size: 2rem;
+            margin: 20px;
+    
+        }
+    
+        .cards {
+            margin-bottom: 20px;
+            padding: 20px;
+            display: flex;
+            
+            img {
+                max-width: 100px;
+                border-radius: 50%;
+            }
+    
+            .subtitle {
+                font-size: 1.5rem;
+                margin: 10px;
+    
+            }
+    
+            p {
+                font-size: 1.1rem;
+                margin: 10px;
+                text-align: justify;
+    
+            }
+        }
+    }
+}
