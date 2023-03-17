@@ -1,16 +1,21 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+}
 .cover {
     display: flex;
     max-width: 70%;
     margin: auto;
     flex-direction: row;
-    background-color: rgb(245, 212, 151);
+    background-color: rgb(255, 218, 148);
+    margin-bottom: 2px;
 
         .logolink{
             display: flex;
             align-items: center;
 
         .logo {
-            max-width: 50px;
+            max-width: 4rem;
             margin: 20px;
             border-radius: 50%;
             
@@ -22,29 +27,56 @@
         justify-content: center;
         align-items: center;
         margin-right: 0.5rem;
+        font-family: 'Roboto Slab';
+        font-weight: bold;
+        font-size: 1.5rem;
 
     }
 
     .subtitle {
         display: flex;
         justify-content: center;
+        margin-left: 0;
+        margin-top: 0.4rem;
         align-items: center;
+        color: rgb(49, 49, 49);
+        font-size: 1rem;
     }
 }
 
-.menu {
-    height: 1.8rem;
-    background-color: rgb(181, 166, 154);
+.nav {
     display: flex;
-    margin: auto;
-    max-width: 70%;
-    align-items: center;
-    justify-content: left;
+        margin: auto;
+        max-width: 70%;
+        align-items: center;
+        background-color: rgb(207, 207, 207);
+        margin-bottom: 3px;
+    
+    .menu {
+        height: 1.8rem;
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+        justify-content: left;
+        background-color: rgba(255, 255, 255, 0);
+        padding-left: 0;
+    
+        .navbutton {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            color: rgb(10, 10, 10);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-family: 'Roboto Slab';
+        }
 
-    .navbutton{
-        color: rgb(21, 21, 21);
-        margin-right: 30px;
-        text-decoration: none;
-        font-size: 1.2rem;
+        .navbutton:hover {
+            background-color: black;
+            color: white;
+            transition-duration: .6s;
+        }
     }
 }
