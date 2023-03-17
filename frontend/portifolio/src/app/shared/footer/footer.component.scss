@@ -1,17 +1,23 @@
-div {
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+}
+.cardfooter {
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
+    background-color: rgb(234, 234, 234);
+    max-width: 70%;
 
     .footer {
         bottom: 0;
-
-        max-width: 70%;
         font-size: 0.9rem;
         display: grid;
         text-align: center;
         line-height: 0;
         padding-top: 15px;
+        background-color: rgba(255, 255, 255, 0);
+        font-family: 'Roboto Slab';
     }
 }
