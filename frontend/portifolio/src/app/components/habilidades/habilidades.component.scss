@@ -1,39 +1,60 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+}
+
 .all {
     max-width: 70%;
-
-    display: flex;
+    display: grid;
     margin: auto;
-    padding: 20px;
 
-    .habilities {
-    
-        .title {
-            font-size: 2rem;
-            margin: 20px;
-    
+    .header {
+        margin-bottom: 3px;
+
+        .habtitle {
+            padding: 1rem;
+
+            .title {
+
+            }
+
+            .titledescription {
+
+            }
         }
-    
+    }
+
+    .content {
+        margin-bottom: 3px;
+
         .cards {
-            margin-bottom: 20px;
-            padding: 20px;
-            display: flex;
-            
-            img {
-                max-width: 100px;
-                border-radius: 50%;
+            padding: 1rem;
+
+            .title {
+
             }
-    
-            .subtitle {
-                font-size: 1.5rem;
-                margin: 10px;
-    
-            }
-    
-            p {
-                font-size: 1.1rem;
-                margin: 10px;
+
+            .description {
+                display: flex;
+                align-items: center;
+                text-align: left;
                 text-align: justify;
-    
+                .image {
+                    max-width: 4rem;
+                    border-radius: 50%;
+                    border: solid black 1px;
+                    align-items: center;
+                }
+
+                .text {
+                    margin-right: 2rem;
+                    margin-left: 2rem;
+                    font-family: 'Roboto Slab';
+                    margin-bottom: 0;
+                    margin-top: 0;
+                    padding: 0;
+
+                }
             }
         }
     }
