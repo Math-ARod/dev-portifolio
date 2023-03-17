@@ -1,36 +1,44 @@
-.about {
-    max-width: 70%;
-    height: 75%;
-    display: flex;
-    margin: auto;
-    padding: 20px;
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+}
 
-    .title {
-        font-size: 2rem;
-        margin: 10px;
-    }
+.all {
+    height: 100%;
 
-    p {
-        font-size: 1.1rem;
-        margin: 10px;
-        text-align: justify;
-        line-height: 1.5rem;
-    }
-
-    .contact {
+    .about {
+        max-width: 70%;
+        height: 80%;
         display: flex;
-
-        i {
-            display: flex;
-            margin-right: 10px;
-            align-items: center;
+        margin: auto;
+        margin-bottom: 3px;
+        padding: 1rem;
+    
+        .title {
+            font-family: 'Roboto Slab';
+            font-weight: bold;
         }
-
+    
         p {
+            text-align: justify;
+            font-family: 'Roboto Slab';
+        }
+    
+        .contact {
             display: flex;
-            font-size: 1.1rem;
-            margin: 10px;
-            align-items: center;
+    
+            i {
+                display: flex;
+                margin-right: 10px;
+                align-items: center;
+            }
+    
+            p {
+                display: flex;
+                margin: 10px;
+                align-items: center;
+                font-family: 'Roboto Slab';
+            }
         }
     }
 }

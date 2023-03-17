@@ -14,11 +14,14 @@
         .habtitle {
             padding: 1rem;
 
-            .title {
 
+            .title {
+                font-family: 'Roboto Slab';
+                font-weight: bold;
             }
 
             .titledescription {
+                font-family: 'Roboto Slab';
 
             }
         }
@@ -31,7 +34,9 @@
             padding: 1rem;
 
             .title {
-
+                font-family: 'Roboto Slab';
+                font-weight: bold;
+                margin-bottom: 0.5rem;
             }
 
             .description {
@@ -39,6 +44,8 @@
                 align-items: center;
                 text-align: left;
                 text-align: justify;
+                font-family: 'Roboto Slab';
+
                 .image {
                     max-width: 4rem;
                     border-radius: 50%;
@@ -48,7 +55,7 @@
 
                 .text {
                     margin-right: 2rem;
-                    margin-left: 2rem;
+                    margin-left: 1rem;
                     font-family: 'Roboto Slab';
                     margin-bottom: 0;
                     margin-top: 0;

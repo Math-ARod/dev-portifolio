@@ -3,74 +3,86 @@
     src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 }
 
-.home {
-    max-width: 70%;
-    height: 80%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3px;
-
+.all {
     .abtitle {
         display: flex;
+        max-width: 70%;
+        display: flex;
+        margin: auto;
         text-align: left;
         width: 100%;
         font-size: 1.5rem;
         font-family: 'Roboto Slab';
-        text-indent: 2rem;
-    }
+        padding: 1rem;
+        margin-bottom: 3px;
 
-    .about {
-        display: flex;
-        align-items: center;
-        text-align: left;
-        margin: 5rem;
-        text-align: justify;
-
-        .abimage {
-            max-width: 10rem;
-            border-radius: 50%;
-            border: 2px solid black;
+        .firstdescription {
             margin-right: 2rem;
-        }
-
-        .description {
-            margin-right: 2rem;
-            text-indent: 2rem;
             font-family: 'Roboto Slab';
-            margin-bottom: 0;
-            margin-top: 0;
-            padding: 0;
+            font-size: 1rem;
         }
     }
-    .name {
 
-    }
-
-    .title {
-        font-size: 2rem;
-        font-family: 'Roboto Slab';
-        margin-bottom: 1rem;
-    }
-
-    .social {
+    .home {
+        max-width: 70%;
+        height: 80%;
         display: flex;
         margin: auto;
         align-items: center;
         justify-content: center;
-        
-        img {
-            max-width: 3rem;
-            border-radius: 50%;
-            margin: 0.3rem;
-            margin-bottom: 2rem;
+        margin-bottom: 3px;
+    
+        .about {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            margin: 2rem;
+            text-align: justify;
+    
+            .abimage {
+                max-width: 10rem;
+                border-radius: 50%;
+                border: 2px solid black;
+                margin-right: 2rem;
+            }
+    
+            .description {
+                margin-right: 2rem;
+                text-indent: 2rem;
+                font-family: 'Roboto Slab';
+                margin-bottom: 0;
+                margin-top: 0;
+                padding: 0;
+            }
         }
-
-        img:hover {
-            max-width: 3.5rem;
-            transition: .6s;
-
+        .name {
+    
+        }
+    
+        .title {
+            font-size: 2rem;
+            font-family: 'Roboto Slab';
+            margin-bottom: 1rem;
+        }
+    
+        .social {
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            
+            img {
+                max-width: 3rem;
+                border-radius: 50%;
+                margin: 0.3rem;
+                margin-bottom: 2rem;
+            }
+    
+            img:hover {
+                max-width: 3.5rem;
+                transition: .6s;
+    
+            }
         }
     }
 }
