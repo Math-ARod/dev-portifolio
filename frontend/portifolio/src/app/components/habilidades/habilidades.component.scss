@@ -4,16 +4,18 @@
 }
 
 .all {
-    max-width: 70%;
-    display: grid;
-    margin: auto;
+    background-color: white;
 
     .header {
         margin-bottom: 3px;
+        max-width: 70%;
+        display: grid;
+        margin: auto;
+
 
         .habtitle {
             padding: 1rem;
-
+            box-shadow: none;
 
             .title {
                 font-family: 'Roboto Slab';
@@ -29,9 +31,14 @@
 
     .content {
         margin-bottom: 3px;
+        max-width: 70%;
+        display: grid;
+        margin: auto;
+        box-shadow: none;
 
         .cards {
             padding: 1rem;
+            box-shadow: none;
 
             .title {
                 font-family: 'Roboto Slab';
