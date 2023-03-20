@@ -4,6 +4,7 @@
 }
 
 .all {
+    background-color: white;
     .abtitle {
         display: flex;
         max-width: 70%;
@@ -15,6 +16,7 @@
         font-family: 'Roboto Slab';
         padding: 1rem;
         margin-bottom: 3px;
+        box-shadow: none;
 
         .firstdescription {
             margin-right: 2rem;
@@ -31,6 +33,7 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 3px;
+        box-shadow: none;
     
         .about {
             display: flex;
