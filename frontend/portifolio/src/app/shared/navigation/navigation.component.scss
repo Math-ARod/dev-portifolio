@@ -4,11 +4,11 @@
 }
 .cover {
     display: flex;
-    max-width: 70%;
     margin: auto;
     flex-direction: row;
     background-color: #ffac59;
     margin-bottom: 2px;
+    border-radius: 0;
 
         .logolink{
             display: flex;
@@ -46,11 +46,11 @@
 
 .nav {
     display: flex;
-        margin: auto;
-        max-width: 70%;
-        align-items: center;
-        background-color: #d4b376;
-        margin-bottom: 3px;
+    margin: auto;
+    align-items: center;
+    background-color: #d4b376;
+    margin-bottom: 3px;
+        border-radius: 0;
     
     .menu {
         height: 1.8rem;
