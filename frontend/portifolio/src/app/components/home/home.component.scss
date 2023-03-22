@@ -39,27 +39,31 @@
     
         .about {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             text-align: left;
             margin: 2rem;
             text-align: justify;
     
             .abimage {
-                max-width: 10rem;
+                max-width: 7rem;
                 border-radius: 50%;
                 border: 2px solid black;
-                margin-right: 2rem;
+                margin-right: .5rem;
             }
-    
-            .description {
-                margin-right: 2rem;
-                text-indent: 2rem;
-                font-family: 'Roboto Slab';
-                margin-bottom: 0;
-                margin-top: 0;
-                padding: 0;
-                font-size: 1rem;
+
+            .card {
+
+                .description {
+                    display: flex;
+                    margin: 10px;
+                    text-indent: 1rem;
+                    font-family: 'Roboto Slab';
+                    padding: 0;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
             }
+
         }
         .name {
     
