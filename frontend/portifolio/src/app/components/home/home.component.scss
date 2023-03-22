@@ -5,6 +5,7 @@
 
 .all {
     background-color: white;
+    
     .abtitle {
         display: flex;
         max-width: 70%;
@@ -22,6 +23,7 @@
             margin-right: 2rem;
             font-family: 'Roboto Slab';
             font-size: 1rem;
+            text-align: justify;
         }
     }
 
@@ -67,6 +69,7 @@
             font-size: 2rem;
             font-family: 'Roboto Slab';
             margin-bottom: 1rem;
+            text-align: center;
         }
     
         .social {
